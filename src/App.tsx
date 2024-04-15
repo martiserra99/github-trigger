@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <>Oscar</>;
+  return <>Marti</>;
 }
 
 export default App;
