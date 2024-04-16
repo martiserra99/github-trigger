@@ -1,7 +1,5 @@
-import { Coffee } from "mdi-material-ui";
-
 function App() {
-  return <Coffee />;
+  return <></>;
 }
 
 export default App;
