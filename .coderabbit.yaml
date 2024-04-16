@@ -2,11 +2,11 @@
 language: "en-US"
 early_access: false
 reviews:
-  request_changes_workflow: false
+  request_changes_workflow: true
   high_level_summary: true
   poem: true
   review_status: true
-  collapse_walkthrough: false
+  collapse_walkthrough: true
   auto_review:
     enabled: true
     ignore_title_keywords:
