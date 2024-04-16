@@ -13,8 +13,7 @@ reviews:
       - "WIP"
       - "DO NOT MERGE"
     drafts: false
-  path_instructions:
-    - path: "**/*.tsx"
-      instructions: "We can't create constants that are not used"
+    base_branches:
+      - "dev"
 chat:
   auto_reply: true
