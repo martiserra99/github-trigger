@@ -1,3 +1,3 @@
-export default function A() {
+export function A() {
   return <>A</>;
 }
