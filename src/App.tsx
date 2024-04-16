@@ -1,7 +1,7 @@
-import AddIcon from "@src/icons/add-icon";
+import { Coffee } from "mdi-material-ui";
 
 function App() {
-  return <AddIcon />;
+  return <Coffee />;
 }
 
 export default App;
