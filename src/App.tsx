@@ -1,5 +1,7 @@
+import AddIcon from "@src/icons/add-icon";
+
 function App() {
-  return <>Hola, em dic Marti</>;
+  return <AddIcon />;
 }
 
 export default App;
