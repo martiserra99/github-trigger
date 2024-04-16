@@ -1,7 +1,7 @@
 export default function A() {
-  return <>A</>;
+  return <>{hola()}</>;
 }
 
-export function hola() {
+function hola() {
   return "HOLA";
 }
