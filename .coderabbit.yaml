@@ -15,5 +15,20 @@ reviews:
     drafts: false
     base_branches:
       - "dev"
+  path_instructions:
+    - path: "src/v2/**/*"
+      instructions: "Review that the React components are defined as functions using the function keyword"
+    - path: "src/v2/**/*"
+      instructions: "If the React components have props, review that the type of the props is an interface named after the component and ending with Props."
+    - path: "src/v2/**/*"
+      instructions: "If we have a file ending with .stories.tsx, review that it is in the same folder as the corresponding component."
+    - path: "src/v2/**/*"
+      instructions: "If we have a file ending with .stories.tsx, review that it starts with the same name as the component file."
+    - path: "src/v2/**/*"
+      instructions: "If we have one storybook story, review that it has the same name as the component."
+    - path: "src/v2/**/*"
+      instructions: "Review that we always import from npm packages first and then from our own files."
+    - path: "src/v2/**/*"
+      instructions: "Review that we always import the icons from our icons folder and not from npm packages."
 chat:
   auto_reply: true
