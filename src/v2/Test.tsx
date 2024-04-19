@@ -1,13 +1,13 @@
-import { Add } from "@mui/icons-material";
+import AddIcon from "../icons/add-icon";
 
-interface Props {
+interface TestProps {
   name: string;
 }
 
-export default function Test({ name }: Props) {
+export default function Test({ name }: TestProps) {
   return (
     <>
-      <Add />
+      <AddIcon />
       <div>{name}</div>
     </>
   );
